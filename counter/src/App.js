@@ -1,12 +1,17 @@
 import React from 'react';
+import Counter from './components/Counter';
 
 class App extends React.Component {
+
 
   render() {
       return(
         <div>
           <h1>My counter App</h1>
-          <p>we wil put our counter here</p>
+          <Counter title = "Days"/>
+          <Counter title = "hours"/>
+          <Counter title = "seconds"/>
+          <Counter title = "miliseconds"/>
         </div>
       )
     }
